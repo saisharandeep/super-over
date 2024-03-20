@@ -1,0 +1,106 @@
+body{
+    background-image: url("stadium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color: rgb(0,0,0,0.9);
+    
+    height: 650px;
+    width: 800px;
+    margin-left: 300px;
+    border-radius:15px;
+
+
+}
+h1{
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#n1{
+    height: 220px;
+    width:220px;
+    margin-left: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-top: 30px;
+    
+}
+#n2{
+    margin-left: 530px;
+    margin-top: -340px;
+    border-radius: 50% ;
+    height: 220px;
+    width: 220px;
+    border: 2px solid red;
+    margin-bottom: 100px;
+    
+}
+.run1{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 75px;
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.run2{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 530px;
+    margin-top: 170px;
+    font-size: 20px;
+    
+}
+#n3{
+    color: red;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#n4{
+    color: red;
+    font-size: 30px;
+    margin-left: 620px;
+    margin-top: -75px;
+}
+#strike{
+    height: 30px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: purple;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#try{
+    height: 30px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background-color: purple;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.scores{
+    display: flex;
+    margin-left: 380px;
+    color:whitesmoke;
+    margin-top: -230px;
+    font-size: xx-large;
+}
+#result{
+    background-image: linear-gradient(to right,rgb(249, 51, 7),rgb(13, 125, 254));
+    font-size: xx-large;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}

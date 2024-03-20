@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super over</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <center><h1>Super Over Match</h1></center>
+        <div class="csk">
+            <img src="./csk.jpg" alt="" id="n1">
+        </div>
+        <p id="n3">CSK</p>
+        <div class="rcb">
+            <img src="./rcb.jpg" alt="" id="n2">
+        </div>
+        <p id="n4">MI</p>
+        <div class="run1" id="team1scores">
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+        </div>
+        <div class="scores">
+            <div id="team1score">0</div>
+            <div>-</div>
+            <div id="team2score">0</div>
+        </div>
+        <div class="run2" id="team2scores">
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+            <div>-</div>
+        </div>
+        <input type="submit" value="BATTING" id="strike" onclick="handleStrike()">
+        <input type="submit" value="REFRESH" id="try" onclick="window.location.reload()">
+        <div id="result"></div>
+    </div>
+    <script src="design.js"></script> 
+</body>
+</html>
